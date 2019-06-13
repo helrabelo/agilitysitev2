@@ -5,64 +5,85 @@
   <title>Agility Soluções</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@4.0.1/reset.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
 
   <!-- HEADER -->
-  <header>
-    <h1>LOGO<h1>
-        <nav>
-          <ul>
-            <li>Como Funciona</li>
-            <li>Quem Somos</li>
-            <li>Meus Trabalhos</li>
-            <li><a href="">Vamos conversar!</a></li>
-          </ul>
-        </nav>
+  <header class="header">
+    <div class="navbar">
+      <h1>LOGO<h1>
+          <nav class="nav">
+            <ul class="nav justify-content-center menu">
+              <li class="nav-item"><a class="nav-link" href="">Como Funciona</a></li>
+              <li class="nav-item"><a class="nav-link" href="">Quem Somos</a></li>
+              <li class="nav-item"><a class="nav-link" href="">Meus Trabalhos</a></li>
+              <li class="nav-item"><a class="nav-link botao-laranja" href="">Vamos conversar!</a></li>
+            </ul>
+          </nav>
+    </div>
   </header>
 
   <!-- MAIN HEADER -->
-  <section>
-    <h1>Você pensa,<br>a gente desenvolve!</h1>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam earum exercitationem odio voluptatem qui.</p>
-    <a href="">Quero ver exemplos</a>
-  </section>
+  <main class="main">
+    <div class="container">
+      <div class="col-md-6">
+        <h1 class="titulo">Você pensa,<br>a gente desenvolve!</h1>
+        <p class="subtitulo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam earum exercitationem odio
+          voluptatem qui.</p>
+        <a class="botao-branco" href="">Quero ver exemplos</a>
+      </div>
+      <div class="col-md-6"></div>
+    </div>
+  </main>
 
   <!-- STEPS -->
-  <section>
-    <div></div>
-    <div>
-      <h1>Passo 1</h1>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam earum exercitationem odio voluptatem qui.</p>
-      <a href="">E depois?</a>
+  <section class="container">
+    <div class="col-md-6"></div>
+    <div class="col-md-6">
+      <h1 class="titulo-steps">Passo 1</h1>
+      <p class="paragrafo-steps">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam earum exercitationem odio
+        voluptatem qui.</p>
+      <a class="botao-laranja" href="">E depois?</a>
     </div>
 
 
-    <div>
-      <h1>Passo 2</h1>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam earum exercitationem odio voluptatem qui.</p>
-      <a href="">E depois?</a>
+    <div class="col-md-6">
+      <h1 class="titulo-steps">Passo 2</h1>
+      <p class="paragrafo-steps">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam earum exercitationem odio
+        voluptatem qui.</p>
+      <a class="botao-laranja" href="">E depois?</a>
     </div>
-    <div></div>
+    <div class="col-md-6"></div>
 
-    <div></div>
-    <div>
-      <h1>Passo 3</h1>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam earum exercitationem odio voluptatem qui.</p>
-      <a href="">E depois?</a>
+    <div class="col-md-6"></div>
+    <div class="col-md-6">
+      <h1 class="titulo-steps">Passo 3</h1>
+      <p class="paragrafo-steps">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam earum exercitationem odio
+        voluptatem qui.</p>
+      <a class="botao-laranja" href="">E depois?</a>
     </div>
   </section>
 
   <!-- QUEM SOU EU -->
-  <section>
-    <h1>Quem somos</h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum magni est deserunt aspernatur commodi aliquid minus
-      tenetur labore porro, facere doloremque? Aliquid dolorum doloribus molestias perferendis! At nostrum maiores
-      illum.
-    </p>
+  <section class="quem-somos">
+    <h1 class="titulo-quem-somos">Quem somos</h1>
+    <div class="container">
+      <div class="col-md-6">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum magni est deserunt aspernatur commodi aliquid
+          minus
+          tenetur labore porro, facere doloremque? Aliquid dolorum doloribus molestias perferendis! At nostrum maiores
+          illum.
+        </p>
+      </div>
+      <div class="col-md-6"></div>
+    </div>
   </section>
 
   <!-- MEUS TRABALHOS -->
@@ -93,6 +114,17 @@
       </div>
     </div>
   </section>
+
+  <!-- BOOTSTRAP SCRIPTS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
 </body>
 
 </html>
