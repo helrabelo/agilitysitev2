@@ -1,9 +1,14 @@
 /* HEADER */
 
+body {
+  font-family: 'Roboto', Georgia, Times, serif;
+  font-size: 14px;
+  color: #fff;
+}
+
 .header {
   background: #3398FF;
-  box-shadow: 10 4px 2px -2px #fff;
-
+  border-bottom: 1px solid ##298CCE;
 }
 
 .menu li a {
@@ -37,6 +42,9 @@
 .titulo {
   font-weight: bold;
   letter-spacing: 0.1em;
+  font-family: 'Muli', 'Roboto', 'Times New Roman', Times, serif;
+  margin: 20px 0;
+
 }
 
 .titulo::before {
@@ -51,7 +59,8 @@
 
 .subtitulo {
   font-weight: lighter;
-  margin: 20px auto;
+  margin: 20px 0;
+
 }
 
 .botao-branco {
@@ -59,12 +68,22 @@
   background: #fff;
   border-radius: 24px;
   padding: 10px;
+  margin-top: 80px;
 }
 
 /* STEPS */
 
+.steps {
+  padding: 60px 0;
+}
+
 .titulo-steps {
-  color: teal;
+  color: #256E9E;
+  font-family: 'Muli', 'Roboto', 'Times New Roman', Times, serif;
+  font-size: 37px;
+  font-weight: bold;
+  padding: 40px 20px 0;
+
 }
 
 .titulo-steps::after {
@@ -77,6 +96,13 @@
   text-align: left;
 }
 
+.paragrafo-steps {
+  color: #000;
+  font-family: 'Muli', 'Roboto', 'Times New Roman', Times, serif;
+  font-size: 14px;
+  padding: 40px 20px 0;
+}
+
 /* QUEM SOMOS */
 
 .quem-somos {
@@ -87,6 +113,8 @@
 .titulo-quem-somos {
   text-align: center;
   color: #fff;
+  font-family: 'Muli', 'Roboto', 'Times New Roman', Times, serif;
+  font-size: 37px;
 }
 
 .titulo-quem-somos::after {
@@ -95,11 +123,21 @@
   width: 20px;
   height: 8px;
   background: orange;
-  margin: 0 auto;
+  margin: 0 auto 10px 615px;
+  ;
   text-align: left;
 }
 
+.paragrafo-quem-somos {
+  font-family: 'Muli', 'Roboto', 'Times New Roman', Times, serif;
+  font-size: 21px;
+}
+
 /* MEUS TRABALHOS */
+
+.meus-trabalhos {
+  text-align: center;
+}
 
 /* FOOTER */
 
@@ -109,4 +147,14 @@
 
 .footer {
   background: #216294;
+  padding: 60px 0;
+}
+
+.map-item {
+  font-family: 'Muli', 'Roboto', 'Times New Roman', Times, serif;
+  font-size: 14px;
+}
+
+.map-title {
+  font-weight: bold;
 }
