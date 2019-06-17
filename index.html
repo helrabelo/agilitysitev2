@@ -32,7 +32,7 @@
 
   <!-- MAIN HEADER -->
   <main class="main">
-    <div class="container">
+    <div class="container main-conteudo">
       <div class="col-md-6">
         <h1 class="titulo">Você pensa,<br>a gente desenvolve!</h1>
         <p class="subtitulo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam earum exercitationem odio
@@ -53,7 +53,7 @@
         <h1 class="titulo-steps">Passo 1</h1>
         <p class="paragrafo-steps">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam earum exercitationem
           odio voluptatem qui.</p>
-        <a class="botao-laranja" href="">E depois?</a>
+        <a class="botao-laranja botao-corpo" href="">E depois?</a>
       </div>
     </div>
 
@@ -63,7 +63,7 @@
         <p class="paragrafo-steps">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam earum exercitationem
           odio
           voluptatem qui.</p>
-        <a class="botao-laranja" href="">E depois?</a>
+        <a class="botao-laranja botao-corpo" href="">E depois?</a>
       </div>
       <div class="col-lg-6 col-md-6">
         <img src="/img/monitor-cash-credit-card.png" />
@@ -89,7 +89,13 @@
     <h1 class="titulo-quem-somos">Quem somos</h1>
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 col-md-6">
+        <div class="col-lg-6 col-md-6 texto-quem-somos">
+          <p class="paragrafo-quem-somos">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum magni est deserunt aspernatur commodi aliquid
+            minus<br>
+            tenetur labore porro, facere doloremque? Aliquid dolorum doloribus molestias perferendis! At nostrum maiores
+            illum.
+          </p>
           <p class="paragrafo-quem-somos">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum magni est deserunt aspernatur commodi aliquid
             minus<br>
@@ -107,33 +113,33 @@
   <!-- MEUS TRABALHOS -->
   <section class="meus-trabalhos">
     <div class="container">
-      <h1 class="titulo-steps">Meus Trabalhos</h1>
+      <h1 class="titulo-steps titulo-meus-trabalhos">Meus Trabalhos</h1>
       <div class="row">
         <div class="col-lg-3">
-          <img src="/img/Image 3.png" />
+          <a class="meus-trabalhos-item" href=""><img src="/img/Image 3.png" /><a>
         </div>
         <div class="col-lg-3">
-          <img src="/img/Image 3.png" />
+          <a class="meus-trabalhos-item" href=""><img src="/img/Image 3.png" /><a>
         </div>
         <div class="col-lg-3">
-          <img src="/img/Image 3.png" />
+          <a class="meus-trabalhos-item" href=""><img src="/img/Image 3.png" /><a>
         </div>
         <div class="col-lg-3">
-          <img src="/img/Image 3.png" />
+          <a class="meus-trabalhos-item" href=""><img src="/img/Image 3.png" /><a>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-3">
-          <img src="/img/Image 3.png" />
+          <a class="meus-trabalhos-item" href=""><img src="/img/Image 3.png" /><a>
         </div>
         <div class="col-lg-3">
-          <img src="/img/Image 3.png" />
+          <a class="meus-trabalhos-item" href=""><img src="/img/Image 3.png" /><a>
         </div>
         <div class="col-lg-3">
-          <img src="/img/Image 3.png" />
+          <a class="meus-trabalhos-item" href=""><img src="/img/Image 3.png" /><a>
         </div>
         <div class="col-lg-3">
-          <img src="/img/Image 3.png" />
+          <a class="meus-trabalhos-item" href=""><img src="/img/Image 3.png" /><a>
         </div>
       </div>
     </div>
@@ -144,32 +150,54 @@
   <section class="footer">
     <!-- FORMULÁRIO X -->
     <div class="container form-steps">
-      <h1>Aqui ficará o form</h1>
-    </div>
-    <div class="container">
+      <h1>Qual a sua ideia?</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+      <a class="botao-branco botao-form" href="">Vamos Começar!</a>
       <div class="row">
-        <div class="col-md-4">
+        <ul class="col-md-8 col-lg-8 step-item">
+          <li class="col-md-2 col-lg-2">
+            <h1>1</h1>
+            <p>Lorem ipsum set dolor ipsuim dazm poid.</p>
+          </li>
+          <li class="col-md-2 col-lg-2">
+            <h1>2</h1>
+            <p>Lorem ipsum set dolor ipsuim dazm poid.</p>
+          </li>
+          <li class="col-md-2 col-lg-2">
+            <h1>3</h1>
+            <p>Lorem ipsum set dolor ipsuim dazm poid.</p>
+          </li>
+          <li class="col-md-2 col-lg-2">
+            <h1>4</h1>
+            <p>Lorem ipsum set dolor ipsuim dazm poid.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-info">
+      <div class="row">
+        <div class="col-md-4 footer-social">
           <h1>LOGO</h1>
           <ul class="list-inline">
-            <li class="list-inline-item">LO</li>
-            <li class="list-inline-item">PH</li>
-            <li class="list-inline-item">NU</li>
+            <li class="list-inline-item"></li>
+            <li class="list-inline-item"></li>
+            <li class="list-inline-item"></li>
           </ul>
         </div>
         <div class="col-md-4">
           <ul class="website-map">
             <li class="map-item map-title">O Site</li>
             <li class="map-item">Como funciona</li>
-            <li>Quem somos</li>
-            <li>Meus trabalhos</li>
+            <li class="map-item">Quem somos</li>
+            <li class="map-item">Meus trabalhos</li>
           </ul>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 footer-contact">
           <p>Contato</p>
           <form>
-            <input type="text" />
-            <input type="text" />
-            <input type="text" />
+            <input type="text" placeholder="Nome: " />
+            <input type="text" placeholder="E-mail: " />
+            <input type="textarea" placeholder="Mensagem: " />
           </form>
         </div>
       </div>
